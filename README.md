@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# 1st step:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Add the ChakraUI Provider in index.js along with ReactBrowserRouter
 
-## Available Scripts
+# 2nd step:
 
-In the project directory, you can run:
+Remove everything from App.js
 
-### `npm start`
+# 3rd step:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Create Home Page Design (go to https://chakra-templates.dev/page-sections/hero)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 4th Step:
 
-### `npm test`
+Create the first route for the homePage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 5th Step:
 
-### `npm run build`
+Edit the landing page and add the functionality to change route on the Get Started CTA
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 6th Step:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Create the users page and get all the users
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 7th Step:
 
-### `npm run eject`
+Do the inital setup for useSWR
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 8th Step:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Handle the isLoading and isError state with components
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# 9th Step:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Iterate over the users and display the name
 
-## Learn More
+# 10th Step:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Create a card to display the User information
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 11th Step:
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Create the User Details Page
