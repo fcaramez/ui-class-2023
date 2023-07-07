@@ -52,4 +52,8 @@ With that page, create the logic to update the User
 
 # 14th Step:
 
+Add color mode (switch between dark and light mode as defaults)
+
+# 15th Step:
+
 Done :)

@@ -78,13 +78,13 @@ export default function UserDetails() {
         minH={"100vh"}
         align={"center"}
         justify={"center"}
-        bg={"gray.800"}
+        bg={"gray.80"}
       >
         <Stack
           spacing={4}
           w={"full"}
           maxW={"md"}
-          bg={"gray.700"}
+          bg={"white"}
           rounded={"xl"}
           boxShadow={"lg"}
           p={6}
