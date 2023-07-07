@@ -24,7 +24,7 @@ Create the users page and get all the users
 
 # 7th Step:
 
-Do the inital setup for useSWR
+Do the inital setup for useSWR (Create helper function in separate folder)
 
 # 8th Step:
 
@@ -40,4 +40,16 @@ Create a card to display the User information
 
 # 11th Step:
 
+Align everything in a row using grid (4, 1)
+
+# 12th Step:
+
 Create the User Details Page
+
+# 13th Step:
+
+With that page, create the logic to update the User
+
+# 14th Step:
+
+Done :)

@@ -1,7 +1,8 @@
-import { Center, Spinner } from "@chakra-ui/react";
+import { Center, Grid, GridItem, Spinner } from "@chakra-ui/react";
 import React from "react";
 import useSwr from "swr";
-const fetcher = (...args) => fetch(...args).then(res => res.json());
+import UserCard from "../Components/UserCard";
+import { fetcher } from "../utils/helpers";
 
 const Users = () => {
   const {
@@ -29,15 +30,24 @@ const Users = () => {
     );
   }
 
-  return response.data.map(user => {
-    return (
-      <>
-        <p>
-          {user.first_name} {user.last_name}
-        </p>
-      </>
-    );
-  });
+  return (
+    <Grid
+      alignItems="center"
+      justifyContent={"center"}
+      templateColumns={"repeat(4, 1fr)"}
+    >
+      {response.data.map(user => {
+        return (
+          <GridItem>
+            <UserCard
+              user={user}
+              key={user.id}
+            />
+          </GridItem>
+        );
+      })}
+    </Grid>
+  );
 };
 
 export default Users;
